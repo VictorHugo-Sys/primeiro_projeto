@@ -181,6 +181,7 @@ img{
 
 .imagenssource{
     max-width: 300px;
+    min-width: 250px;
 
 }
 
