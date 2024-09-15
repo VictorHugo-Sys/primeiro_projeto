@@ -9,13 +9,11 @@
 
 }
 :root{
-    --cor0: #62E1F5;
-    --cor1: #88A2F5;
-    --cor2: #62B3F5;
-    --cor3: #6284F5;
-    --cor4: #6E62F5;
-    --cor5: #9F62F5;
-    --corback: #319aa879;
+    --cor0: #9BF2EA;
+    --cor1: #41BFB3;
+    --cor2: #2A8C82;
+    --cor3: #260101;
+    --cor4: #275950;
 
     --font-bebas: 'bebas neue', cursive;
     --font-padrao: arial, verdana, helvetica, sans-serif;
@@ -23,7 +21,7 @@
 }
 
 body{
-    background-color: var(--corback);
+    background-color: #182625;
     margin: auto;
     min-width: 250px;
     max-width: 950px;
@@ -31,7 +29,7 @@ body{
 }
 
 header{
-    background-color: var(--cor0);
+    background-color: var(--cor1);
     min-height: 150px;
     text-align: center;
     color: white;
@@ -60,7 +58,7 @@ header > P{
 }
 
 nav{
-    background-color: var(--cor0);
+    background-color: var(--cor1);
     min-height: 50px;
     padding-top: 25px;
     padding-left: 20px;
@@ -91,7 +89,7 @@ main{
 article > h1{
     margin:  0px;
     text-align: center;
-    background-image: linear-gradient(to right, #6E62F5, transparent );
+    background-image: linear-gradient(to right, #2A8C82, transparent );
     font-family: var(--font-bebas);
     font-weight: normal;
     font-size: 2em;
@@ -99,8 +97,7 @@ article > h1{
 }
 
 article > h2{
-    text-align: center;
-    background-image: linear-gradient(to right, #6E62F5, transparent );
+    background-image: linear-gradient(to right, #2A8C82, transparent );
     font-family: var(--font-bebas);
     font-weight: normal;
     font-size: 1.7em;
@@ -130,19 +127,19 @@ article a{
 
 article a:hover{
     text-decoration: underline;
-    background-color: var(--cor2);
+    background-color: var(--cor0);
 
 }
 
 aside{
-    background-color: #9f62f56c;
+    background-color: #9bf2e98e;
     border-radius: 10px;
     padding-bottom: 7px;
 
 }
 
 aside h2{
-    background-image: linear-gradient(to right, #6E62F5, transparent );
+    background-image: linear-gradient(to right, #2A8C82, transparent );
     color: white;
     padding: 10px;
     border-radius: 10px 10px 0px 0px;
@@ -163,7 +160,7 @@ aside ul{
 }
 
 footer{
-    background-color: var(--cor0);
+    background-color: var(--cor1);
     color: white;
     text-align: center;
     padding: 5px;
@@ -191,7 +188,7 @@ img{
 }
 
 div.videos {
-    background-color: var(--cor1);
+    background-color: var(--cor4);
     margin: 0px -20px 0px -20px;
     padding: 20px 20px 50% 20px;
     position: relative;
